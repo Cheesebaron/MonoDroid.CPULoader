@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Begin">Begin loading the CPU!</string>
+  <string name="Stop">Stop!</string>
+  <string name="Percent">Percentage</string>
+  <string name="PercentDesc">Choose the percentage to load the CPU</string>
+  <string name="Time">Interval</string>
+  <string name="TimeDesc">Choose for how long to load the CPU (0 is infinite) in seconds</string>
+  <string name="ApplicationName">CPULoader</string>
+  <string name="Description">This application loads the CPU to the chosen percentage below. I take no responsibility if it causes damages to your device!</string>
+</resources>

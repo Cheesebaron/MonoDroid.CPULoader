@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Description"
+        android:layout_marginBottom="10dp" />
+    <TextView
+        android:id="@+id/tvPercentLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Percent"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/etPercent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="70" />
+    <TextView
+        android:id="@+id/tvPercentDescription"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/PercentDesc"
+        android:layout_marginBottom="10dp"
+        android:textStyle="normal"
+        android:textColor="@android:color/darker_gray" />
+    <TextView
+        android:id="@+id/tvTimeLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Time"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="5" />
+    <TextView
+        android:id="@+id/tvTimeDescription"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/TimeDesc"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/darker_gray"/>
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Begin" />
+</LinearLayout>
